@@ -20,7 +20,8 @@
     "autoload-dev": {
     },
 	"scripts": {
-        "start": "php -S 0.0.0.0:8080 -t public index.php"
+        "dev": "php -S 0.0.0.0:8080 -t public index.php",
+        "start": ".apache2/run-apache2.sh"
 	}
 
 }
