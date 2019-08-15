@@ -1,0 +1,26 @@
+{
+    "name": "dragonmantank/glitch-php-skeleton",
+    "description": "A small skeleton for using PHP on glitch.com",
+    "keywords": [],
+    "homepage": "https://github.com/dragonmantank/glitch-php-skeleton",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chris Tankersley",
+            "email": "chris@ctankersley.com",
+            "homepage": "https://ctankersley.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=4.8 < 6.0"
+    },
+    "autoload-dev": {
+    },
+	"scripts": {
+        "start": "php -S 0.0.0.0:8080 -t public index.php"
+	}
+
+}
